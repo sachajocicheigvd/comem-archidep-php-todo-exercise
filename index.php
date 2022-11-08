@@ -9,10 +9,10 @@ define('BASE_URL', '/');
 
 // Database connection parameters.
 define('DB_USER', 'todolist');
-define('DB_PASS', 'chAngeMeN0w!');
+define('DB_PASS', 'Pomme123$$');
 define('DB_NAME', 'todolist');
 define('DB_HOST', '127.0.0.1');
-define('DB_PORT', '8889');
+define('DB_PORT', '3306');
 
 $db = new PDO('mysql:host='.DB_HOST.';port='.DB_PORT.';dbname='.DB_NAME, DB_USER, DB_PASS);
 $items = array();
